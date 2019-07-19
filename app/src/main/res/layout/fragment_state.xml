@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/route"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="@string/route"
+        android:textColor="@color/colorDark"
+        android:textSize="25dp"
+        android:gravity="center_vertical|left"
+        android:layout_marginTop="15dp"/>
+    <EditText
+        android:id="@+id/bus_number"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/bus_number"
+        android:inputType="text"/>
+    <Button
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp"
+        android:hint="@string/search"/>
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="@string/message"
+        android:textColor="@color/colorDark"
+        android:textSize="25dp"
+        android:gravity="center_vertical|left"
+        android:layout_marginTop="15dp"/>
+    <Button
+        android:id="@+id/inquire"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp"
+        android:hint="@string/come"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="@string/search_incity"
+        android:textColor="@color/colorDark"
+        android:textSize="25dp"
+        android:gravity="center_vertical|left"
+        android:layout_marginTop="15dp"/>
+    <Button
+        android:id="@+id/abc"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp"
+        android:hint="进入"/>
+</LinearLayout>

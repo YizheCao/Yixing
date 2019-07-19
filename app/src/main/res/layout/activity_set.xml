@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/colorDark"
+            android:text="官方网站" />
+        <TextView
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+            android:text="www.yixing-eternal.cn/navigation" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/colorDark"
+            android:text="QQ号" />
+        <TextView
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+            android:text="837941105" />
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="385dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+
+    <TextView
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/colorDark"
+        android:text="版权归属" />
+    <TextView
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:text="长安大学" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/colorDark"
+            android:text="版本号" />
+        <TextView
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+            android:text="V1.0" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/colorDark"
+            android:text="简介" />
+        <TextView
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+            android:text="        易行公共交通出行软件针对人们乘坐公交车出行时拥挤以及因公交车资源分配不均而导致人们长时间等待的问题，设计了一个线上的平台来解决这一问题。我们的平台有助于乘客对所需乘坐的公交车运行状况和车上人流状况有深层次的了解，详尽的车上人数统计、公交车资源分布状况图以及运行状况和实时路况分析系统，能够使乘客第一时间得知所需等待时间以及该班次公交车的大致乘坐情况，使得乘客能够针对相应的车上人流状态以及车辆运行状况做出相应的调整以达到节省时间和乘客分流的结果，进而提高公交车乘坐出行者的使用感受，并改善城市的交通问题。" />
+
+    </LinearLayout>
+
+</LinearLayout>

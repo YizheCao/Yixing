@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/login_register"
+        android:layout_width="385dp"
+        android:layout_height="150dp"
+        android:text="@string/login_register"
+        android:textColor="@color/colorDark"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/colorGray"
+        android:clickable="true" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="385dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/colorGray">
+
+        <ImageView
+            android:id="@+id/help_image"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/help"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/help"
+            android:layout_width="355dp"
+            android:layout_height="30dp"
+            android:text="@string/help"
+            android:textColor="@color/colorDark"
+            android:textSize="25dp"
+            android:gravity="center_vertical|left"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:clickable="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="385dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/colorGray">
+
+        <ImageView
+            android:id="@+id/set_image"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/set"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/set"
+            android:layout_width="355dp"
+            android:layout_height="30dp"
+            android:text="@string/set"
+            android:textColor="@color/colorDark"
+            android:textSize="25dp"
+            android:gravity="center_vertical|left"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:clickable="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="385dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/colorGray"
+        android:visibility="visible"
+        android:id="@+id/linear_layout">
+
+        <ImageView
+            android:id="@+id/logout_image"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/logout"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/logout"
+            android:layout_width="355dp"
+            android:layout_height="30dp"
+            android:text="@string/logout"
+            android:textColor="@color/colorDark"
+            android:textSize="25dp"
+            android:gravity="center_vertical|left"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:clickable="true"/>
+
+    </LinearLayout>
+
+</LinearLayout>

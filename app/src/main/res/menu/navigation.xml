@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_map"
+        android:icon="@drawable/map"
+        android:title="地图" />
+
+    <item
+        android:id="@+id/navigation_state"
+        android:icon="@drawable/state"
+        android:title="路线" />
+
+    <item
+        android:id="@+id/navigation_people"
+        android:icon="@drawable/people"
+        android:title="我的" />
+
+</menu>

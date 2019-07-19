@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">易行</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="nearby">查看附近公交站点</string>
+    <string name="message">路线规划</string>
+    <string name="map_start">出发地</string>
+    <string name="map_end">目的地</string>
+    <string name="come">进入</string>
+    <string name="route">公交车内状态</string>
+    <string name="bus_number">公交线路</string>
+    <string name="search">搜索</string>
+    <string name="search_incity">搜索地点</string>
+    <string name="login_register">登录/注册</string>
+    <string name="help">帮助与反馈</string>
+    <string name="set">关于我们</string>
+    <string name="logout">退出登录</string>
+    <string name="msg">留言：</string>
+</resources>
